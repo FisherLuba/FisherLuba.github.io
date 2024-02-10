@@ -10,7 +10,6 @@ function doGradientCycle() {
     for (let element of gradientElements) {
         let value = `-webkit-linear-gradient(0deg, yellow ${currentPercent}%, orange ${currentPercent + 15}%, yellow ${currentPercent + 30}%)`;
         element.style.background = value;
-        console.log(element.style.background);
         element.style.color = "blue";
         element.style.webkitBackgroundClip = "text";
         element.style.webkitTextFillColor = "transparent";
@@ -28,7 +27,6 @@ function doBlueGradientCycle() {
     for (let element of gradientElements) {
         let value = `-webkit-linear-gradient(0deg, #2beaff ${currentPercentBlue}%, #209af7 ${currentPercentBlue + 15}%, #2beaff ${currentPercentBlue + 30}%)`;
         element.style.background = value;
-        console.log(element.style.background);
         element.style.color = "blue";
         element.style.webkitBackgroundClip = "text";
         element.style.webkitTextFillColor = "transparent";
