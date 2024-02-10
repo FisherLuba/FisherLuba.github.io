@@ -11,16 +11,37 @@ html {
   width: 400px;
 }
 
+#github-link {
+  display: block;
+  position: fixed;
+  text-align: center;
+  width: 75%;
+  left: 50%;
+  bottom: 10%;
+  margin-left: -37.5%;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;;
+}
+
 .gradient-text {
   text-align: center;
-  /* color: #e8e81c; */
   padding-top: 10%;
-  /* background-image: linear-gradient(#e8e81c, orange) no-repeat;
-  */
   background-clip: text;
-  /* text-fill-color: transparent;  */
-  /* background: -webkit-linear-gradient(0deg, #e8e81c, gray); */
   background: -webkit-linear-gradient(0deg, orange, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-blue {
+  text-align: center;
+  padding-top: 10%;
+  background-clip: text;
+  background: -webkit-linear-gradient(0deg, aqua, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#github-link:hover {
+  font-size: 48px;
 }
